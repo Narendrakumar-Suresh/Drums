@@ -1,14 +1,14 @@
 html, body {
   text-align: center;
-  background-color: #331D2C;
+  background-color: #37306B;
   overflow: hidden;
 }
 
 h1 {
   font-size: 5rem;
-  color: #DBEDF3;
+  color: #9E4784;
   font-family: "Arvo", cursive;
-  text-shadow: 3px 0 #A78295;
+  text-shadow: 3px 0 #66347F;
 
 }
 
@@ -76,8 +76,8 @@ footer {
   font-family: 'Arvo', cursive;
   line-height: 2;
   font-weight: 900;
-  color: #A78295;
-  text-shadow: 3px 0 #DBEDF3;
+  color: #D27685;
+  text-shadow: 3px 0 #66347F;
   border-radius: 15px;
   display: inline-block;
   width: 150px;
@@ -127,13 +127,4 @@ footer {
   body{
   overflow: auto;
 }
-}
-
-footer{
-  animation:mymove 5s infinite;
-}
-
-@keyframes mymove{
-  0%   {top: 0px;}
-  25%  {top: 50px;}
 }
